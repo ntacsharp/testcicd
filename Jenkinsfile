@@ -37,9 +37,9 @@ pipeline {
         // Tên image trên Docker Hub
         DOCKER_IMAGE_NAME = 'tuanasanh/testcicd'
         // ID của credentials chứa token để checkout repo cấu hình K8s
-        GIT_CONFIG_REPO_CREDENTIALS_ID = 'gitlab-config-repo-credentials' 
+        GIT_CONFIG_REPO_CREDENTIALS_ID = '09ff4f5b-151a-4dd8-93bc-45fb2364db30' 
         // URL của kho chứa cấu hình K8s
-        GIT_CONFIG_REPO_URL = 'https://gitlab.com/your-username/k8s-manifest-repo.git'
+        GIT_CONFIG_REPO_URL = 'https://github.com/ntacsharp/testcicd.git'
     }
 
     stages {
